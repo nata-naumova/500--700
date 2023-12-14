@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сайта  -->
+    <header class="header dark">
+      <div class="container">
+        <div class="header__container">
+          <a href="index.html" class="header__logo">
+            <img src="./images/Logo.svg" alt="Логотип сайта" />
+          </a>
+          <button class="header__burger"></button>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__level">О нас</a>
+                <div class="menu">
+                  <div class="menu__overlay"></div>
+                  <div class="menu__container">
+                    <ul class="menu__list">
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">О 500на700</a>
+                      </li>
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">Документы</a>
+                      </li>
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">Устойчивое развитие</a>
+                      </li>
+                    </ul>
+
+                    <ul class="menu__list">
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">Команда</a>
+                      </li>
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">Стратегия</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__level">Проекты</a>
+                <div class="menu">
+                  <div class="menu__overlay"></div>
+                  <div class="menu__container">
+                    <ul class="menu__list">
+                      <li class="menu__item">
+                        <a href="#" class="menu__link">Наши проекты</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Новости</a>
+              </li>
+              <li class="nav__item"><a href="#" class="nav__link">FAQ</a></li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Контакты</a>
+              </li>
+            </ul>
+            <button type="button" class="btn header__button">
+              <span>Связаться с нами</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- / Шапка сайта  -->
+
+    <main>
+      <!-- Первый экран  -->
+      <section class="hero dark">
+        <div class="container">
+          <!-- Слайдер  -->
+          <!-- Slider main container -->
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="hero__container">
+                  <div class="hero-left">
+                    <div class="hero__tag">Сайты</div>
+                    <h1 class="hero__title">
+                      Заголо вок 1 Заголо вок 1 Заголо вок 1
+                    </h1>
+                    <p class="hero__subtitle">
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта
+                    </p>
+                  </div>
+                  <div class="hero-right">
+                    <img src="./images/hero.png" alt="Слайд 1" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="hero__container">
+                  <div class="hero-left">
+                    <div class="hero__tag">Сайты</div>
+                    <h1 class="hero__title">
+                      Заголо вок 2 Заголо вок 2 Заголо вок 2
+                    </h1>
+                    <p class="hero__subtitle">
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта
+                    </p>
+                  </div>
+                  <div class="hero-right">
+                    <img src="./images/hero-2.png" alt="Слайд 1" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="hero__container">
+                  <div class="hero-left">
+                    <div class="hero__tag">Сайты</div>
+                    <h1 class="hero__title">
+                      Заголо вок 3 Заголо вок 3 Заголо вок 3
+                    </h1>
+                    <p class="hero__subtitle">
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта Описание проекта
+                      Описание проекта Описание проекта
+                    </p>
+                  </div>
+                  <div class="hero-right">
+                    <img src="./images/hero-3.png" alt="Слайд 1" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+              <img src="./images/icons/left.svg" alt="left" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="./images/icons/right.svg" alt="right" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- / Первый экран  -->
+
+      <!-- Новости  -->
+      <section class="news dark">
+        <div class="container">
+          <h2 class="section__title news__title">Новости</h2>
+          <div class="swiper news-slider">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-1.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 1</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-2.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 2</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-3.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 3</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-4.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 4</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-5.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 5</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+              <article class="swiper-slide new">
+                <img
+                  src="./images/news-6.png"
+                  alt="Изображение новости"
+                  class="new__image"
+                />
+                <div class="new__content">
+                  <h2 class="new__title">Заголовок новости 6</h2>
+                  <p class="new__subtitle">
+                    Описание новости в 3 строки Описание новости в 3
+                    строкиОписание новости в 3 строкиОписание новости в 3 строки
+                    Описание новости в 3 строки Описание строки Описание
+                  </p>
+                </div>
+                <span class="new__date">01 января 1990</span>
+              </article>
+            </div>
+            <div class="swiper-button-prev news-sliderBtn">
+              <img src="./images/icons/left.svg" alt="left" />
+            </div>
+            <div class="swiper-button-next news-sliderBtn">
+              <img src="./images/icons/right.svg" alt="right" />
+            </div>
+          </div>
+          <div class="news-list">
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-1.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 1</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-2.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 2</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-3.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 3</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-4.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 4</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-5.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 5</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+            <article class="swiper-slide new">
+              <img
+                src="./images/news-6.png"
+                alt="Изображение новости"
+                class="new__image"
+              />
+              <div class="new__content">
+                <h2 class="new__title">Заголовок новости 6</h2>
+                <p class="new__subtitle">
+                  Описание новости в 3 строки Описание новости в 3
+                  строкиОписание новости в 3 строкиОписание новости в 3 строки
+                  Описание новости в 3 строки Описание строки Описание
+                </p>
+              </div>
+              <span class="new__date">01 января 1990</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- / Новости  -->
+
+      <!-- Вопрос-ответ -->
+      <section class="faq dark">
+        <div class="container">
+          <div class="faq__container">
+            <h2 class="section__title faq__title">FAQ</h2>
+            <div class="faq__box accordion">
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <div class="accordion-top">
+                    <h3 class="accordion__title">
+                      Какие услуги предоставляет ваша студия?
+                    </h3>
+                    <span class="accordion__arrow"></span>
+                  </div>
+                  <div class="accordion__content">
+                    <p class="accordion__text">
+                      Мы придерживаемся высоких стандартов качества и стремимся
+                      создавать уникальный дизайн, отвечающий потребностям и
+                      ожиданиям наших клиентов. Наши дизайнеры постоянно
+                      совершенствуют свои навыки и следят за новыми трендами в
+                      дизайне.
+                    </p>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <div class="accordion-top">
+                    <h3 class="accordion__title">
+                      Как вы обеспечиваете качество и уникальность дизайна?
+                    </h3>
+                    <span class="accordion__arrow"></span>
+                  </div>
+                  <div class="accordion__content">
+                    <p class="accordion__text">
+                      Мы придерживаемся высоких стандартов качества и стремимся
+                      создавать уникальный дизайн, отвечающий потребностям и
+                      ожиданиям наших клиентов. Наши дизайнеры постоянно
+                      совершенствуют свои навыки и следят за новыми трендами в
+                      дизайне.
+                    </p>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <div class="accordion-top">
+                    <h3 class="accordion__title">
+                      Предоставляете ли вы услуги по созданию контента для
+                      сайтов и приложений?
+                    </h3>
+                    <span class="accordion__arrow"></span>
+                  </div>
+                  <div class="accordion__content">
+                    <p class="accordion__text">
+                      Мы придерживаемся высоких стандартов качества и стремимся
+                      создавать уникальный дизайн, отвечающий потребностям и
+                      ожиданиям наших клиентов. Наши дизайнеры постоянно
+                      совершенствуют свои навыки и следят за новыми трендами в
+                      дизайне.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Вопрос-ответ -->
+
+      <!-- Рассылка -->
+      <section class="newletter">
+        <div class="container">
+          <div class="newletter__container">
+            <div class="newletter__box">
+              <h2 class="section__title newletter__title">
+                Подпишись <br/> на рассылку
+              </h2>
+              <p class="newletter__subtitle">
+                Отправляем анонсы новых статей, выпусков и трансляций
+              </p>
+            </div>
+            <form class="form">
+              <div class="form-box">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Электронная почта"
+                />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Дата (например, 01.01.1990)"
+                />
+                <input type="text" class="form__input" placeholder="Телефон" />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Время (например, 10:00)"
+                />
+              </div>
+              <div class="form-checkbox">
+                <input type="checkbox" id="checkbox" class="form__checkbox" />
+                <label for="checkbox" class="form-checkbox__text">
+                  Я согласен (-а) на обработку персональных данных
+                </label>
+              </div>
+              <button class="btn form__button"><span>Подписаться</span></button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- / Рассылка -->
+
+      <!-- Подвал сайта  -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer-left">
+              <a href="#" class="footer__logo">
+                <img src="./images/LogoWhite.svg" alt="Логотип сайта" />
+              </a>
+              <div class="footer__socials">
+                <a href="#" class="footer__social yt"></a>
+                <a href="#" class="footer__social tg"></a>
+                <a href="#" class="footer__social vk"></a>
+              </div>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__text">О нас</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__text">Проекты</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__text">Новости</a>
+                </li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__text">FAQ</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__text">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer-right">
+              <p class="footer__text">г. Горгород, <br/> ул. Мегаполисная, 1</p>
+              <a href="tel:+70000000000" class="footer__text">+7 (000) 000-00-00</a>
+              <a href="mailto:email@email.ru" class="footer__text">email@email.ru</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- / Подвал сайта  -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./vendor/sliders.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
