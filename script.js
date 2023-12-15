@@ -1,6 +1,8 @@
 import { newsList } from "./vendor/demo.js";
 
 document.addEventListener("DOMContentLoaded", () => {
+  "use strict";
+  
   // Меню навигации
   const links = document.querySelectorAll(".nav__link");
   const menuOverlay = document.querySelectorAll(".menu__overlay");
@@ -35,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     menuOverlay.forEach((overlay) => {
       overlay.addEventListener("click", hideLink);
     });
-    
+
   } else {
     // Десктоп
     links.forEach((link) => {
